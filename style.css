@@ -1,0 +1,161 @@
+/* Reset some default styles */
+/* html {
+    background-color: #cfd4d1;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+/* Center-align text within header */
+header {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+}
+
+/* Style the <p> tag */
+header p {
+    margin: 0;
+    font-family: 'Great Vibes', cursive;
+    font-size: 24px;
+    color: #fff;
+    padding-left: 10px;
+}
+
+/* Style the <nav> links */
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Profile container styles */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.profile-container .col-6 {
+    text-align: center;
+}
+
+.profile-container strong {
+    font-size: 24px;
+}
+
+.profile-container p {
+    font-size: 18px;
+}
+
+.profile-container img {
+    height: 50vh;
+    width: 40vh;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Home container styles */
+.home-container {
+    padding: 20px;
+    text-align: center;
+}
+
+/* About section styles */
+.about-container {
+    padding: 20px;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-detail {
+    text-align: center;
+}
+
+.info-detail img {
+    max-width: 100%;
+    margin-top: 20px;
+    height: 40vh;
+    width: 40vh;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.Skill {
+    padding: 50px 0; /* Add padding for spacing */
+}
+
+/* Style the Skill container */
+.skill-container {
+    max-width: 800px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    text-align: center; /* Center-align text */
+}
+
+/* Style the skill list */
+.skill-detail ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.skill-detail li {
+    font-size: 18px; 
+    margin-bottom: 10px; 
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+}
+
+.skill-detail li img {
+    width: 90px; /* Set the width of the image (adjust as needed) */
+    height: 90px; /* Set the height of the image (adjust as needed) */
+    margin-right: 10px; /* Add space between image and text */
+    mix-blend-mode: multiply; /* Set the background of the image to transparent */
+}
+
+.skill-detail li:hover {
+    color: #007bff; /* Change text color on hover */
+}
+.portfolio{
+
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+}
+/* Contact section styles */
+.contact-container {
+    padding: 20px;
+}
+
+.contact-detail ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-detail li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contact-detail a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-detail a:hover {
+    text-decoration: underline;
+}
