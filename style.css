@@ -17,7 +17,7 @@ header {
     flex-wrap: nowrap;
     justify-content: space-between;
     padding: 20px;
-    background-color: black;
+    background-color: rgba(104, 74, 2, 0.3);
 }
 
 /* Style the <p> tag */
@@ -38,14 +38,7 @@ header nav a {
 
 /* Profile container styles */
 .profile-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 120px;
-}
-
-.profile-container .col-6 {
-    text-align: center;
+    padding: 120px 0 120px 0;
 }
 
 .profile-container strong {
@@ -60,22 +53,13 @@ header nav a {
     height: 50vh;
     width: 40vh;
     border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-
-/* Home container styles */
-.home-container {
-    padding: 20px;
-    text-align: center;
+    outline: 5px solid rgba(104, 74, 2, 0.3);
 }
 
 /* About section styles */
-.about-container {
+.info-container {
     padding: 20px;
-    height: 750px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 50vh;
 }
 
 .info-detail {
@@ -88,7 +72,8 @@ header nav a {
     height: 40vh;
     width: 40vh;
     border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    outline: 5px solid rgba(104, 74, 2, 0.3);
+
 }
 
 .Skill {
@@ -103,7 +88,6 @@ header nav a {
 .skill-container {
     max-width: 800px; /* Set a maximum width for the container */
     margin: 0 auto; /* Center the container horizontally */
-    text-align: center; /* Center-align text */
 }
 
 /* Style the skill list */
@@ -111,7 +95,6 @@ header nav a {
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .skill-detail li {
@@ -139,6 +122,9 @@ header nav a {
 
 .portfolio h1{
     padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .portfolio-container{
@@ -179,17 +165,36 @@ header nav a {
     margin-bottom: 8px; /* Add space between list items */
 }
 
+.Contact{
+    margin-top: 50px;
+    background-color: rgba(104, 74, 2, 0.3);
+    color: #fff;
+}
+
+.contact-container h2{
+    padding: 15px 0 20px 0;
+    margin: 0;
+}
+
 .contact-list {
     list-style: none;
     padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content:space-around;
     text-align: center;
 }
 
 .contact-list li {
     display: inline-block;
-    margin-right: 15px; /* Adjust the spacing between icons */
 }
 
+.contact-list li img{
+    width: 20px;
+    height: 20px;
+}
 /* Style the icons */
 .contact-list i {
     font-size: 24px; /* Adjust the icon size */
